@@ -11,7 +11,6 @@ I heavily used the npm module ftp-deploy, which basically removed all the FTP se
 Clone the repository. Make a file called sensitiveData.js in your base folder with the following structure: 
 
 '''
-
 module.exports = 
 {
     user: "Your FTP Username (generally in format example@hostname)",
@@ -19,7 +18,6 @@ module.exports =
     host: "Your FTP Host (Generally your domain name)", 
     port: "Your FTP Port"     
 }
-
 '''
 
 You will also have to run npm install in the directory. That will use the package.json file located in the repo and install all prerequisites that you need. There aren't many, but they are necessary. 
