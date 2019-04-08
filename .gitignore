@@ -1,0 +1,6 @@
+# Self-explanatory
+node_modules/*
+
+# Contains FTP credentials that I don't want in my commit history 
+sensitiveData.js
+
